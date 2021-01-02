@@ -1,0 +1,9 @@
+.app {
+  background-color: #f1f2f5;
+  height: 100%;
+  font-size: 20px;
+}
+
+.app__body {
+  display: flex;
+}

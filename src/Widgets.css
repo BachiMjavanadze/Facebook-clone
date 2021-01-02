@@ -1,0 +1,12 @@
+.widgets {
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f2f5;
+}
+
+
+/* @media (max-width: 992px) { 
+  .widgets {
+    display: none;
+  }
+} */

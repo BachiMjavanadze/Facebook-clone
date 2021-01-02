@@ -1,0 +1,53 @@
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.login > button {
+  width: 300px;
+  background-color: #2e81f4;
+  color: #eff2f5;
+  font-weight: 800;
+}
+
+.login > button:hover {
+  background-color: #fff;
+  color: #2e81f4;
+}
+
+.login > div > img {
+  object-fit: contain;
+  height: 150px;
+}
+
+.login > div {
+  display: flex;
+  font-display: column;
+}
+
+.login__warning {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.login__warning_sub {
+  display: flex;
+  justify-content: center;
+}
+
+.login__warningIcon {
+  color: orange;
+  font-size: 43px !important;
+}
+
+.login__warningHeader {
+  font-size: 30px !important;
+  line-height: 40px;
+}
+
+.login__warningText {
+  margin-top: 20px;
+  font-size: 24px;
+}

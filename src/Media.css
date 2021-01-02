@@ -1,0 +1,48 @@
+@media (max-width: 601px) { 
+  .last-story {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) { 
+  .header {
+    flex-direction: column !important;
+    /* width: 100vw !important; */
+  }
+
+  /* .header > * {
+    width: 100% !important;
+  } */
+
+  .header__left {
+    margin-bottom: 20px !important;
+  }
+
+  .feed {
+    padding: 30px 30px !important;
+      margin-top: 140px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header__right {
+    display: none !important;
+  }
+
+  .sidebar {
+    display: none !important;
+  }
+
+  .feed {
+    padding: 30px 50px !important;
+  }
+
+  .widgets {
+    display: none !important;
+  }
+}
+
+
+
+
+
